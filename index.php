@@ -1,7 +1,7 @@
 
 <html >
   <head>
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
     
     
   </head>
@@ -14,7 +14,7 @@
           
 
 
- <script type="text/javascript" src="js/jfunc.js"></script>
+ <script type="text/javascript" src="jfunc.js"></script>
 
 
   
