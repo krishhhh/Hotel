@@ -11,96 +11,13 @@
 
   <From action="ajax/contact.php" method="post" class="ajax">
 
-           
-            
-             <p class="contact"><label for="hotelname">Hotel Name</label>
-
-                <input id="hotelname" name="hotelname" placeholder="Enter you Hotel name" required="" tabindex="1" type="text">
-            </p>
-
-                <p class="contact"><label for="name">Name</label>
-
-                <input id="name" name="name" placeholder="Youe First and last name" required="" tabindex="1" type="text">
-
-                </p>
-
-                <p class="contact"><label for="email">Email</label>
-
-                <input id="email" name="email" placeholder="example@domain.com" required="" type="email"></p>
-                  <div>
-                        <div><label for="image_file">Please select Photo of you Hotel</label></div>
-                        <div><input type="file" name="image_file" id="image_file" onchange="fileSelected();" /></div>
-                    </div><br>
- 
-
-               
- 
-
-               <fieldset>
-
-                 <label>Birthday</label>
-
-                  <label class="month">
-
-                  <select class="select-style" name="BirthMonth">
-
-                  <option value="">Month</option>
-
-                  <option  value="01">January</option>
-
-                  <option value="02">February</option>
-
-                  <option value="03" >March</option>
-
-                  <option value="04">April</option>
-
-                  <option value="05">May</option>
-
-                  <option value="06">June</option>
-
-                  <option value="07">July</option>
-
-                  <option value="08">August</option>
-
-                  <option value="09">September</option>
-
-                  <option value="10">October</option>
-
-                  <option value="11">November</option>
-
-                  <option value="12" >December</option>
-
-                  </label>
-
-                 </select>   
-
-                <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required=""></label>
-
-                <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
-
-              </fieldset>
-
- 
-              <label>Genger: </label>
-            <select class="select-style gender" name="gender">
-
-            
-
-            <option value="m">Male</option>
-
-            <option value="f">Female</option>
-
-            <option value="others">Other</option>
-
-            </select><br><br>
-
- 
-            <p class="contact"><label for="phone">Mobile phone</label>
-
-            <input id="phone" name="phone" placeholder="phone number" required="" type="text"></p> <br><br><br>
-
-            <input class="buttom" name="submit" id="submit" tabindex="5" value="Click to register you Hotel!" type="submit">   
-
+           <div>
+             <input type="text" name="name" placeholder="Enter your Name"
+           </div>
+           <div>
+             <input type="text" name="emal" placeholder="Enter your Email"
+           </div>
+           <input type="submit" value="Send">
 
    </form>
 <script src="http://ajax.googleapis.com/ajax/libs/libs/jquery/1-9-1/jquery.min.js"></script>
