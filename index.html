@@ -11,11 +11,9 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Hotel</h1>
+      <h1 class="project-name" align="center">Hotel</h1>
       <h2 class="project-tagline"></h2>
-      <a href="https://github.com/krishhhh/Hotel" class="btn">View on GitHub</a>
-      <a href="https://github.com/krishhhh/Hotel/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/krishhhh/Hotel/tarball/master" class="btn">Download .tar.gz</a>
+      
     </section>
 
     <section class="main-content">
@@ -23,15 +21,100 @@
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
 
- <form action="action_page.php">
-  First name:<br>
-  <input type="text" value="Mickey">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse">
-  <br><br>
-  <input type="submit" value="Submit">
-</form>
+  <div  class="form">
+
+            <form id="contactform">\
+            
+             <p class="contact"><label for="hotelname">Enter Hotel Name</label></p>
+
+                <input id="hotelname" name="hotelname" placeholder="Enter you Hotel name" required="" tabindex="1" type="text">
+
+
+                <p class="contact"><label for="name">Name</label></p>
+
+                <input id="name" name="name" placeholder="Youe First and last name" required="" tabindex="1" type="text">
+
+ 
+
+                <p class="contact"><label for="email">Email</label></p>
+
+                <input id="email" name="email" placeholder="example@domain.com" required="" type="email">
+
+ 
+
+               
+ 
+
+               <fieldset>
+
+                 <label>Birthday</label>
+
+                  <label class="month">
+
+                  <select class="select-style" name="BirthMonth">
+
+                  <option value="">Month</option>
+
+                  <option  value="01">January</option>
+
+                  <option value="02">February</option>
+
+                  <option value="03" >March</option>
+
+                  <option value="04">April</option>
+
+                  <option value="05">May</option>
+
+                  <option value="06">June</option>
+
+                  <option value="07">July</option>
+
+                  <option value="08">August</option>
+
+                  <option value="09">September</option>
+
+                  <option value="10">October</option>
+
+                  <option value="11">November</option>
+
+                  <option value="12" >December</option>
+
+                  </label>
+
+                 </select>   
+
+                <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required=""></label>
+
+                <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
+
+              </fieldset>
+
+ 
+
+            <select class="select-style gender" name="gender">
+
+            <option value="select">i am..</option>
+
+            <option value="m">Male</option>
+
+            <option value="f">Female</option>
+
+            <option value="others">Other</option>
+
+            </select><br><br>
+
+ 
+            <p class="contact"><label for="phone">Mobile phone</label></p>
+
+            <input id="phone" name="phone" placeholder="phone number" required="" type="text"> <br>
+
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Click to register you Hotel!" type="submit">   
+
+
+   </form>
+
+</div>
+
   
 
 
