@@ -1,4 +1,4 @@
-$('#name'.keyup(function(){
+$('#name').keyup(function(){
   
   alert('Hello');
 });
